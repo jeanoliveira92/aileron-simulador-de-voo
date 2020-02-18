@@ -18,29 +18,20 @@ Projeto apresentado ao CEP – Centro de Educação Profissional “Tancredo Nev
 * Aeroporto Francisco Sá Carneiro - Maia/Portugal
 
 ## Controles
-A - Direita
-
-D - Esquerda
-
-W - Baixo
-
-S - Cima
-
-M - Liga o motor
-
-C - Troca de Camera
-
-Q - Leme direita
-
-E - Leme da esquerda
-
-T - Abre a capota
-
-G - Guarda o trem de pouco
-
-seta cima - Acelera
-
-seta baixo - Freia
+Tecla  | Comando
+------------- | -------------
+A  |  Direita
+D  |  Esquerda
+W  |  Baixo
+S  |  Cima
+M  |  Liga o motor
+C  |  Troca de Camera
+Q  |  Leme direita
+E  |  Leme da esquerda
+T  |  Abre a capota
+G  |  Guarda o trem de pouco
+△  |  Acelera
+▽  |  Freia
 
 ## Prêmio
 Prêmio de 1° colocado na FECEP como melhor projeto do curso de Informática
