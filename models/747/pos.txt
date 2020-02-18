@@ -1,0 +1,42 @@
+rwing 17.85 -565mm -13.05
+
+lwing -17.07 -651mm -12.76
+
+raileron 27.98 227mm -22.91m || 0 31 5
+
+laileron -27.98 227mm -21.41m || 0 32 5
+
+rflapb 19.64 -0.547 -17.71 || 0 32 4
+
+rflapa 8.71 -1.55 -12.88 || 0 13 4
+
+lflapa -8.71 -1.55 -12 || 0 13 3
+
+lflapb -19.64 -547mm -17.71 || 0 32 4
+
+rudder 18.71 10.74 -47.56
+
+rudderBoard 1mm 11.05 -52 || 19 
+
+relevator 6.06 3.33 -47.78
+
+lelevator -6.06 3.32 -47.78
+
+relevatorboard 8.19 3.30 -50.20
+
+leleavtorboard -8.19 2.40 -50.20 || 0 15
+
+renginea 14.1 -3.15 -4.31
+
+lenginea -14 -3.13 -4.31
+
+lengineb -23.11 -2.45 -12.68
+
+rgearb 5.40 -5.16 -7.01
+
+rgeara 1.65 -5.16 -10.31
+
+rgearb -5.40 -5.16 -7.01
+
+auxgear 0 -2.25 16.23 110º
+ 

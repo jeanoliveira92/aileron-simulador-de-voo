@@ -1,0 +1,35 @@
+engine 0 -280mm 1.7495
+
+propeller 0 -244mm 2.29
+
+rudder 0 200mm -2.56
+
+rudderboard 0 380mm -2.96
+
+lmaingear -765mm -875mm 361mm
+
+rmaingear 765mm -833mm 352mm
+
+fgear 0 -1.115 1.631
+
+rELevatorboard 643mm -232mm -3.0235
+
+rElevator 550mm -232mm -2.834
+
+lElevatorboard -643mm -232mm -3.0234
+
+lelevator -550mm -232mm -2.7823
+
+lwing -2.32 329mm 429mm
+
+lFlap -1.61 294mm 0 || 0 0 -1
+
+laileron -3.32 0.332 0 || 0 0 -1
+
+rWing 2.1864 333m 459mm
+
+rflap 1.616 0.308 0.003 || 0 0 2
+
+rAileron 3.353 0.367 0.003 || 0 0 2
+
+

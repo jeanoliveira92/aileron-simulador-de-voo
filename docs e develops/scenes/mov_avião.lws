@@ -1,0 +1,351 @@
+LWSC
+3
+
+RenderRangeType 0
+FirstFrame 1
+LastFrame 60
+FrameStep 1
+RenderRangeArbitrary 1-60
+PreviewFirstFrame 0
+PreviewLastFrame 250
+PreviewFrameStep 1
+CurrentFrame 77
+FramesPerSecond 30
+
+LoadObjectLayer 1 ASV/models/160C/lwo/160C.lwo
+ShowObject 7 3
+Group 0
+ObjectMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  6
+  Key -2.5299999713897705 0 0 0 0 0 0 1.859615453380959 0
+  Key -0.67007458209991455 1.6666666666666667 0 0 0 0 3.7383331060409555 3.7383331060409555 0
+  Key 4.9466662406921404 3.3333333333333335 0 0 0 0 0.13813331723213196 0.13813331723213196 0
+  Key -0.39380794763565063 5 0 0 0 0 -5.1132214069366464 -5.1132214069366464 0
+  Key -5.2797765731811523 6.666666666666667 0 0 0 0 -1.0680960118770593 -1.0680960118770606 0
+  Key -2.5299999713897705 8.3333333333333357 0 0 0 0 2.7493183820610385 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  6
+  Key 98.847999572753892 0 0 0 0 0 0 -0.14325615327131558 0
+  Key 98.704719543457031 1.6666666666666667 0 0 0 0 0.28800964355469461 0.28800964355469461 0
+  Key 99.424018859863281 3.3333333333333335 0 0 0 0 -0.47234725952148438 -0.47234725952148438 0
+  Key 97.760025024414063 5 0 0 0 0 0.11198425292968039 0.11198425292968039 0
+  Key 99.647987365722642 6.666666666666667 0 0 0 0 0.54398727416991444 0.5439872741699151 0
+  Key 98.847999572753892 8.3333333333333357 0 0 0 0 -0.79985448388810199 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  3
+  Key 16.629999160766605 0 0 0 0 0 0 0 0
+  Key 16.629999160766605 6.666666666666667 0 0 0 0 0 0 0
+  Key 16.629999160766605 8.3333333333333357 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  2
+  Key 1.6632986068725586 0 0 0 0 0 0 0 0
+  Key 1.6632986068725586 8.3333333333333357 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  5
+  Key -0.0052359877154231063 0 0 0 0 0 0 0.088286451308113953 0
+  Key 0.083057820796966525 3.3333333333333335 0 0 0 0 0.13052074300746125 0.065260371503730624 0
+  Key 0.19054512679576879 5 0 0 0 0 -0.11230891942977907 -0.11230891942977907 0
+  Key -0.14156001806259158 6.666666666666667 0 0 0 0 -0.097890557255595909 -0.097890557255596033 0
+  Key -0.0052359877154231063 8.3333333333333357 0 0 0 0 0.13630131346159155 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  6
+  Key -0.10995572805404664 0 0 0 0 0 0 0.30363662364859922 0
+  Key 0.19373150169849401 1.6666666666666667 0 0 0 0 -0.036651894450187683 -0.036651894450187683 0
+  Key -0.183259516954422 3.3333333333333335 0 0 0 0 0.03403391689062113 0.03403391689062113 0
+  Key 0.26179933547973627 5 0 0 0 0 0.036651886999607058 0.036651886999607058 0
+  Key -0.10995574295520785 6.666666666666667 0 0 0 0 -0.18587753921747197 -0.18587753921747219 0
+  Key -0.10995574295520785 8.3333333333333357 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 8.3333333333333357 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 8.3333333333333357 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  2
+  Key 1 0 0 0 0 0 0 0 0
+  Key 1 8.3333333333333357 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+NodeDisplacement 0
+{ Nodal_Block
+  { Root
+    Location 0 0
+    Zoom 1
+    Disabled 1
+  }
+  Version 1
+  { Nodes
+    Server "Displacement"
+    { Tag
+      RealName "Displacement"
+      Name "Displacement"
+      Coordinates -10 -10
+      Mode 1
+      { Data
+      }
+      Preview ""
+      Comment ""
+    }
+  }
+  { Connections
+    NodeName "Displacement"
+    InputName "Input"
+    InputNodeName ""
+    InputOutputName ""
+  }
+}
+NodeDisplacementOrder 0
+ShadowOptions 7
+
+AmbientColor 1 1 1
+AmbientIntensity 0.05
+
+AddLight
+LightName Light
+ShowLight 1 5
+LightMotion
+NumChannels 9
+Channel 0
+{ Envelope
+  1
+  Key -2 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 2 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key -2 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0.78539813999999986 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0.6108652200000001 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 6
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 7
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 8
+{ Envelope
+  1
+  Key 1 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+LightColor 1 1 1
+LightIntensity 1
+AffectCaustics 1
+LightType 0
+ShadowType 1
+ShadowColor 0 0 0
+
+AddCamera
+CameraName Camera
+ShowCamera 1 2
+CameraMotion
+NumChannels 6
+Channel 0
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 1
+{ Envelope
+  1
+  Key 100 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 2
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 3
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 4
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+Channel 5
+{ Envelope
+  1
+  Key 0 0 0 0 0 0 0 0 0
+  Behaviors 1 1
+}
+
+PathAlignLookAhead 0.033
+PathAlignMaxLookSteps 10
+PathAlignReliableDist 0.001
+ZoomFactor 3.2
+ResolutionMultiplier 1.0
+FrameSize 640 480
+PixelAspect 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+ApertureHeight 0.015
+UseGlobalResolution 0
+UseGlobalMask 0
+UseGlobalBlur 0
+Plugin CameraHandler 1 Perspective
+EndPlugin
+
+GlobalFrameSize 640 480
+GlobalMultiplier 1.0
+GlobalFieldRendering 0
+GlobalMotionBlur 0
+GlobalMaskPosition 0 0 640 480
+GlobalFilmHeight 0.015
+GlobalPixelAspect 1
+
+Antialiasing 0
+AntiAliasingLevel -1
+ReconstructionFilter 0
+AdaptiveSampling 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 0.1569 0.3137
+SkyColor 0.4706 0.7059 0.9412
+GroundColor 0.1961 0.1569 0.1176
+NadirColor 0.3922 0.3137 0.2353
+FogType 0
+FogMinDistance 0
+FogMaxDistance 1
+FogMinAmount 0
+FogMaxAmount 1
+FogColor 0.5098 0.5098 0.549
+BackdropFog 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DepthBufferAA 0
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveRGB 0
+SaveAlpha 0
+
+ViewConfiguration 0
+DefineView 0
+ViewType 7
+ViewLevel 5
+CenterItem 1
+ViewAimpoint 2.883209 99.2037 16.63
+ViewRotation 385.6 -7.999995 0
+ViewZoomFactor 6.276672
+
+GridNumber 80
+GridSize 2
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 0
+ShowFogEffect 0
+ShowSafeAreas 0
+ShowFieldChart 0
+OverlayColor_fv 0 0 0
+MeshBackgroundGroup 1
+
+CurrentObject 0
+CurrentLight 0
+CurrentCamera 0
+GraphEditorData
+{ GraphEd_Favorites
+}
+{ GE_Expression_Lib
+  1
+}
+ImageEditorData
+NumberOfClips 3
+Clip 0
+{ ClipObject
+  "Jabiru_160C_paint2.png"
+  128
+  0
+}
+Clip 1
+{ ClipObject
+  "Jabiru_160C_paint.png"
+  128
+  0
+}
+Clip 2
+{ ClipObject
+  "propeller_hi.png"
+  128
+  0
+}

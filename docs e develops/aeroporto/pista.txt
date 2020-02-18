@@ -1,0 +1,21 @@
+• Pista de pouso e decolagem: pintura cor branca. Em pavimento de cor clara a
+pintura terá uma moldura na cor preta.
+• Pista de táxi: pintura cor amarela.
+• Posições de pátio de aeronaves: pintura cor amarela.
+
+cat 1 - Dist 8km para 300m alt
+cat 2 - dist 8km para 60m
+cat 3 - dist 350m para 30m
+
+6m do limite da pista até as faixas
+30m faixas verticais
+12m ate letra
+9m letra
+6m ate o numero
+9m de numero
+10m ate o inicio de seguimentos
+
+triangulos
+30m de ponto a ponto
+7.5m da extremidade da pista até o a extreminadade do triangulo
+ 

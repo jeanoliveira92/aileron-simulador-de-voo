@@ -1,0 +1,137 @@
+{
+	thunderbolt
+	STPI
+	lWing -2.2 -0.3 1.4 0 0 -6 LEFTWING
+	rWing 2.2 -0.3 1.4 0 0 6 RIGHTWING
+	engine 0 0 3.2 0 0 0 ENGINE
+	canopy 0 0.8 0.9 0 0 0 CANOPY
+	rudder 0 0.4 -4.5 0 0 0 RUDDER
+	lElevator -0.5 0.3 -4.1 0 0 0 LEFTELEVATOR
+	rElevator 0.5 0.3 -4.1 0 0 0 RIGHTELEVATOR
+	propeller 0 0 4.4 0 0 0 PROPELLER
+	fuselage 0 0 0 0 0 0 FUSELAGE
+	ENDB
+
+	WEAP
+	browning_0.50 -1.32 -0.04 1.35 lWing 
+	browning_0.50 -1.16 -0.04 1.47 lWing
+	browning_0.50 -1 -0.04 1.56 lWing
+	browning_0.50 -0.85 -0.04 1.7 lWing L
+	browning_0.50 1.32 -0.04 1.35 rWing
+	browning_0.50 1.16 -0.04 1.47 rWing
+	browning_0.50 1 -0.04 1.56 rWing
+	browning_0.50 0.85 -0.04 1.7 rWing L
+	ENDB
+
+	MOBI
+	lFlap 0 0 -0.395 0 2.2 0 lWing
+	lAileron -2.815 -0.02 -0.15 0 15.8 -1 lWing
+	rFlap 0 0 -0.395 0 -2.1 0 rWing
+	rAileron 2.815 -0.02 -0.15 0 -15.8 1 rWing
+	lElevatorBoard 0 -0.045 -0.32 0 0 0 lElevator
+	rElevatorBoard 0 -0.045 -0.32 0 0 0 rElevator
+	rudderBoard 0 0 -0.08 0 0 0 rudder
+	topCanopy 0 0.8 0.9 0 0 0 fuselage
+	rMainGear 0.36 -0.16 0.84 0 0 0 rWing
+	rMainGearCover -1.63 -0.23 0.84 0 0 0 rWing
+	rMainGearTyre 0 0 0 0 0 0 rMainGear
+	lMainGear -0.36 -0.16 0.84 0 0 0 lWing
+	lMainGearCover 1.63 -0.23 0.84 0 0 0 lWing
+	lMainGearTyre 0 0 0 0 0 0 lMainGear
+	tailSkidCover -0.155 -0.57 -2.8 8.6 3 0 fuselage
+	tailSkidTyre 0 -0.6 -2.55 0 0 0 fuselage
+	ENDB
+
+	COMM
+	lFlap FLAP ROT 0 0 0 30 0 0 
+	rFlap FLAP ROT 0 0 0 30 0 0
+	lAileron ROLL ROT 10 0 0 -10 0 0
+	rAileron ROLL ROT -10 0 0 10 0 0
+	rudderBoard YAW ROT 0 -10 0 0 10 0
+	lElevatorBoard PITCH ROT -10 0 0 10 0 0
+	rElevatorBoard PITCH ROT -10 0 0 10 0 0
+	topCanopy EJECT MOV 0 0 0 0 0 0.8
+	rMainGear GEAR ROT 0 0 0 0 0 -82
+	rMainGearTyre GEAR MOV 0 0 0 0.23 -0.01 0.07
+	lMainGear GEAR ROT 0 0 0 0 0 82
+	lMainGearTyre GEAR MOV 0 0 0 -0.23 -0.01 0.07
+	tailSkidTyre GEAR ROT 0 0 0 90 0 0
+	rMainGearCover GEARCOVER ROT 0 0 0 0 0 82
+	lMainGearCover GEARCOVER ROT 0 0 0 0 0 -82
+	tailSkidCover GEARCOVER ROT 0 0 0 0 0 140
+	ENDB
+	
+	DATA
+	GEAR 2.4 -2.56 1.65 M
+	GEAR -2.4 -2.56 1.65 M
+	GEAR 0 -1.4 -2.8 A
+	MASS 8000
+	INRT 400 1300 500
+	ENGN 750
+	ENDB
+}
+{
+	747
+	STPI
+	fuselage 0 0 0 0 0 0 FUSELAGE
+	rEngineA 0 0 0 0 0 0 ENGINE
+	lEngineA 0 0 0 0 0 0 ENGINE
+	rEngineB 0 0 0 0 0 0 ENGINE
+	lEngineB 0 0 0 0 0 0 ENGINE
+	lElevator 0 0 0 0 0 0 LEFTELEVATOR
+	rElevator 0 0 0 0 0 0 RIGHTELEVATOR
+	lWing 0 0 0 0 0 0 LEFTWING
+	rudder 0 0 0 0 0 0 RUDDER
+	rWing 0 0 0 0 0 0 RIGHTWING
+	ENDB
+	
+	MOBI
+	auxGearTyre 0 0 0 0 0 0 fuselage
+	lAileron -23.46 -0.54 -10.74 -0 -31.5 -5 lWing
+	lElevatorBoard -3.03 2.93 -39.85 0 -15 -1 lElevator
+	lFlapA -4.29 -2.80 0.83 0 -26 -6 lWing
+	lFlapB -15.09 -1.51 -5.41 0 -32 -5 lWing
+	rMainGearTyreA 0 0 0 0 0 0 fuselage
+	rMainGearTyreB 0 0 0 0 0 0 lWing
+	lMainGearTyreA 0 0 0 0 0 fuselage
+	lMainGearTyreB 0 0 0 0 0 0 rWing
+	rAileron 23.46 -0.54 -10.74 0 32 6 rWing
+	rElevatorBoard 3.03 2.93 -39.85 0 15 1 rElevator
+	rFlapA 4.29 -2.80 0.83.57 0 26 7 rWing
+	rFlapB 15.09 -1.51 -5.41 0 30 6 rWing
+	rudderBoard 0.0 6.767 -40.68 -34 0 0 rudder
+	ENDB
+	
+	COMM
+	lFlapA FLAP ROT 0 0 0 30 0 0 
+	lFlapB FLAP ROT 0 0 0 30 0 0 
+	rFlapA FLAP ROT 0 0 0 30 0 0 
+	rFlapB FLAP ROT 0 0 0 30 0 0
+	lAileron ROLL ROT 10 0 0 -10 0 0
+	rAileron ROLL ROT -10 0 0 10 0 0
+	rudderBoard YAW ROT 0 -10 0 0 0 0
+	lElevatorBoard PITCH ROT -10 0 0 10 0 0
+	rElevatorBoard PITCH ROT -10 0 0 10 0 0
+	rMainGearTyreA GEAR MOV 0 0 0 0 0 0
+	rMainGearTyreB GEAR MOV 0 0 0 0 0 0	
+	lMainGearTyreA GEAR MOV 0 0 0 0 0
+	lMainGearTyreB GEAR MOV 0 0 0 0 0
+	auxGearTyre GEAR ROT 0 0 0 0 0 0	
+	ENDB
+	
+	DATA
+	GEAR 2.4 -20.56 1.65 M
+	GEAR -2.4 -20.56 1.65 M
+	GEAR 0 -20 -2.8 A
+	MASS 7000
+	INRT 400 1300 500
+	ENGN 750
+	ENDB
+}
+
+{
+	me109
+	
+	WEAP
+	ENDB
+};

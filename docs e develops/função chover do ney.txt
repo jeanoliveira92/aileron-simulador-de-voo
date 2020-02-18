@@ -1,0 +1,23 @@
+void chover(IrrlichtDevice * device, NewtonWorld * nWorld)
+{
+    //chover tranqueiras sobre o avião
+    ISceneManager * smgr = device->getSceneManager();
+
+    for (int i = 0; i < 20; i++)
+    {
+        for (int j = 0; j < 10; j++)
+        {
+            IMeshSceneNode * lixo = smgr->addMeshSceneNode(smgr->getMesh("fx/lixo.lwo"));
+            NewtonCollision * lixoCol = addHullCollision(lixo->getMesh(), device->getVideoDriver(), nWorld, dVector(0.0f,0.0f,0.0f),0);
+            NewtonBody * lixoBody = NewtonCreateBody(nWorld,lixoCol);
+            dMatrix matrix = GetIdentityMatrix();
+            matrix.m_posit = dVector(i*2 - 10, 5.0f, j*2 - 10);
+            NewtonBodySetMatrix(lixoBody,&matrix[0][0]);
+            NewtonBodySetUserData (lixoBody, lixo);
+            NewtonBodySetMassMatrix (lixoBody, 10.0f, 0.0f, 0.0f, 0.0f);
+            NewtonBodySetTransformCallback (lixoBody, updateGenericScene);
+            NewtonBodySetForceAndTorqueCallback (lixoBody, applyGenericForce);
+            NewtonReleaseCollision(nWorld,lixoCol);
+        }
+    };
+};

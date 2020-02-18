@@ -1,0 +1,73 @@
+NOME DO AVIÃO (igual ao que está na pasta)
+No fim de cada bloco deve ser colocada a palavra ENDB
+STPI - peças estáticas
+'nome do lwo (sem gra ou col)' posição (3 numeros) rotacao (3 numeros) função.
+onde:
+função
+	LEFTWING
+	RIGHTWING
+	ENGINE
+	CANOPY
+	RUDDER
+	LEFTELEVATOR
+	RIGHTELEVATOR
+	PROPELLER
+	FUSELAGE
+	LGEAR
+
+WEAP - armamento
+'nome da arma' posição parent
+onde:
+nome da arma:
+	0.50
+	0.30
+	0.20
+	3ROCKET
+	250lbBOMB
+	500lbBOMB
+
+MOBI - peças móveis
+'nome do lwo' (sem mob_) posição (3float) rotacao (3float) 'nome do STATIC PIECE pai'
+
+COMM - comandos que movem as peças
+'nome do MOBILE' comando rotação-ou-movimento vetor-inicial vetor-final
+onde:
+comando
+	FLAP
+	ROLL
+	YAW
+	PITCH
+	GEAR
+	GEARCOVER
+	LIGHT
+	EJECT
+	SHOT
+	SELWEAP
+	ACCELL
+	DECCELL
+	ENGINEON
+	LANDBRAKE
+	
+rotação-ou-movimento
+	ROT
+	MOV
+	
+DATA - Dados aleatórios do avião
+GEAR 'coordenada da extremidade do pneu quando baixado' 'função'
+onde:
+função:
+	M - Principal
+	A - Auxiliar (bequilha - apenas apóia o avião, não tem amortecedores)
+
+
+//// ney esplicação
+
+A 'tag' STPI carrega as partes estáticas, seguido de três floats (posicao em relação a fuselagem) e três floats (rotação em relação a fuselagem), certo?
+Por exemplo, se o -6 do leftwing for -45, a asa esquerda vai ficar bem levantada.
+WEAP é para colocar as armas...
+MOBI partes móveis seguidas de três floats de posição e três de rotação (relativo ao objeto ao qual elas estão presas), e o nome do objeto ao qual elas estão presas
+COMM são os comandos. O nome da peça que vai mover, o comando, ROT ou MOV (se roda ou move), posicao inicial, posição final
+DATA propriedades físicas
+
+
+END

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AILERON - SIMULADOR DE VOO" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="AILERON" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="..\AILERON" />
+				<Option object_output="..\AILERON" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\Program Files\CodeBlocks\irrlicht-1.7.2\include" />
+			<Add directory="C:\Program Files\CodeBlocks\irrKlang-1.3.0\include" />
+			<Add directory="C:\Program Files\CodeBlocks\NewtonWin-2.27\sdk" />
+			<Add directory="C:\Program Files\CodeBlocks\NewtonWin-2.27\sdk\dMath" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\Program Files\CodeBlocks\irrlicht-1.7.2\lib\Win32-gcc\libIrrlicht.dll.a" />
+			<Add library="C:\Program Files\CodeBlocks\irrKlang-1.3.0\lib\Win32-gcc\libirrKlang.a" />
+			<Add library="C:\Program Files\CodeBlocks\NewtonWin-2.27\sdk\x32\dll_vs9\newton.lib" />
+			<Add directory="M:\Programas\CodeBlocksPortable 10.05\App\CodeBlocks\irrlicht-1.7.2\lib\Win32-gcc" />
+		</Linker>
+		<Unit filename="data\cenario.cpp" />
+		<Unit filename="data\classes.h" />
+		<Unit filename="data\controls.cpp" />
+		<Unit filename="data\controls.h" />
+		<Unit filename="data\dMath\dMatrix.cpp" />
+		<Unit filename="data\instrumentos.cpp" />
+		<Unit filename="data\instrumentos.h" />
+		<Unit filename="data\physics.cpp" />
+		<Unit filename="data\physics.h" />
+		<Unit filename="data\planes.cpp" />
+		<Unit filename="data\planes.h" />
+		<Unit filename="data\principal.cpp" />
+		<Unit filename="data\tools.cpp" />
+		<Unit filename="data\tools.h" />
+		<Unit filename="data\weapons.cpp" />
+		<Unit filename="data\weapons.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
