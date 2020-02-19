@@ -39,5 +39,11 @@ G  |  Guarda o trem de pouco
 ## Prêmio
 Prêmio de 1° colocado na FECEP como melhor projeto do curso de Informática no Centro de Educação Profissional Tancredo Neves.
 
+## Desenvolvedores
+
+Jean Carlos De Oliveira [(Github)](https://github.com/jeanoliveira92)
+Mateus Ferreira De Souza
+Ney Candido da Silva Ribeiro
+
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md] (LICENSE.md) para obter detalhes
