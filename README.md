@@ -44,9 +44,11 @@ Prêmio de 1° colocado na FECEP como melhor projeto do curso de Informática no
 
 ## Desenvolvedores
 
-Jean Carlos De Oliveira [(Github)](https://github.com/jeanoliveira92)
-Mateus Ferreira De Souza
-Ney Candido da Silva Ribeiro
+Jean Carlos De Oliveira [(jeanoliveira92)](https://github.com/jeanoliveira92)
+
+Mateus Ferreira De Souza [mateusfer](https://github.com/)
+
+Ney Candido da Silva Ribeiro [neycandido](https://github.com/)
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md] (LICENSE.md) para obter detalhes
