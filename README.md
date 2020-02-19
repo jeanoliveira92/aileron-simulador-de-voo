@@ -35,9 +35,16 @@ G  |  Guarda o trem de pouco
 
 ## Screenshots
 
-![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0000_747.jpg) ![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0001_160C.jpg) ![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0002_p47.jpg)
+![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0000_747.jpg) ![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0001_160C.jpg) ![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0002_p47.jpg){:height="24px" width="48px"}
+
 ## Prêmio
 Prêmio de 1° colocado na FECEP como melhor projeto do curso de Informática no Centro de Educação Profissional Tancredo Neves.
+
+## Desenvolvedores
+
+Jean Carlos De Oliveira [(Github)](https://github.com/jeanoliveira92)
+Mateus Ferreira De Souza
+Ney Candido da Silva Ribeiro
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md] (LICENSE.md) para obter detalhes
