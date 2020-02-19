@@ -35,7 +35,7 @@ G  |  Guarda o trem de pouco
 
 ## Screenshots
 
-[](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0000_747.jpg)[](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0001_160C.jpg)[](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0002_p47.jpg)
+![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0000_747.jpg)![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0001_160C.jpg)![](https://github.com/jeanoliveira92/aileron-simulador-de-voo/blob/master/screenshot_0002_p47.jpg)
 ## Prêmio
 Prêmio de 1° colocado na FECEP como melhor projeto do curso de Informática no Centro de Educação Profissional Tancredo Neves.
 
